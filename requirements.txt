@@ -1,0 +1,16 @@
+# ==========================================
+# SAST Fusion v1.1 Requirements
+# ==========================================
+
+# Excel Processing
+openpyxl>=3.1.2
+pandas>=2.2.2
+
+# Console Colors
+colorama>=0.4.6
+
+# XML Parsing (Fortify FPR)
+lxml>=5.2.2
+
+# Semgrep
+semgrep>=1.130.0

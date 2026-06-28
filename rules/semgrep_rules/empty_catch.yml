@@ -1,0 +1,16 @@
+rules:
+  - id: empty-catch-block
+
+    message: Empty Catch Block
+
+    severity: INFO
+
+    languages:
+      - javascript
+      - typescript
+
+    pattern: |
+      try {
+        ...
+      } catch ($ERR) {
+      }

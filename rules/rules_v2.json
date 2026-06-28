@@ -1,0 +1,11 @@
+{
+"PII Data Exposure": {
+"severity": "High",
+"regex": "\\b(\\d{4}\\s?\\d{4}\\s?\\d{4}|[A-Z]{5}[0-9]{4}[A-Z]|[6-9]\\d{9})\\b"
+},
+
+"Empty Catch Block": {
+"severity": "Low",
+"regex": "catch\\s*\\([^)]*\\)\\s*\\{\\s*(\\/\\/[^\\n]*\\n|\\s|\\/\\*[\\s\\S]*?\\*\\/)*\\}"
+}
+}
