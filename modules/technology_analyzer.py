@@ -6,6 +6,7 @@ from collections import defaultdict
 
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from console import *
 
 Path("output").mkdir(exist_ok=True)
 

@@ -5,6 +5,7 @@ import re
 import sys
 from pathlib import Path
 import csv
+from console import *
 
 Path("output").mkdir(exist_ok=True)
 from collections import defaultdict
