@@ -137,7 +137,7 @@ SAST_Fusion/
 Clone the repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/NamanJain1711/SAST-Fusion/
 ```
 
 Install dependencies
